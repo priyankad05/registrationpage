@@ -1,0 +1,232 @@
+.left {
+    width: 30vw;
+    font-size: x-large;
+    padding: 20px;
+    background-color: #f1faee;
+    color: #1d3557;
+    margin-left: 0px;
+    position: relative;
+}
+
+
+
+#container {
+    display: flex;
+    padding-bottom: 2%;
+    height: fit-content;
+    justify-content: space-between;
+    margin-bottom: 0px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    width: 50vw;
+    margin-right: 25%;
+    font-size: 1em;
+    height: fit-content;
+    margin-left: 4px;
+    align-items: center;
+    width: fit-content;
+}
+
+/* .leftfooter{
+    border: solid 2px greenyellow;
+    display: flex;
+    flex-direction: row;
+} */
+.firstPart,
+.secondPart,
+.thirdPart {
+    margin: 5%;
+}
+
+#bloodDrop {
+    width: 45vh;
+}
+
+input {
+    margin: 8px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(194, 193, 193);
+}
+
+.thirdPart {
+    padding: 10px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+button {
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 10px;
+    width: 30%;
+    background-color: #e63946;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+
+}
+
+.thirdPart {
+    color: rgb(78, 77, 77);
+}
+
+.terms {
+    color: rgb(78, 77, 77);
+    position: center;
+    left: 410px;
+    top: 750px;
+}
+
+.firstPart {
+    padding: 12px;
+}
+
+.thirdPart {
+    padding: 12px;
+}
+
+@media screen and (max-width:767px) {
+   .image2{
+    width: 70%;
+   }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100vw;
+    }
+
+    .right {
+        width: 100vw;
+    }
+
+    .firstPart,
+    .secondPart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .number {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 8%;
+    }
+
+    .register {
+        margin: 5%;
+        margin-left: 35%;
+    }
+
+    .terms {
+        margin: 5px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #bloodDrop {
+        display: none;
+    }
+
+    #icon {
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    /* .terms1 {
+        margin: 10%;
+        margin-top: 0%;
+    }
+
+    .privacy {
+        margin-left: 18vw;
+    } */
+
+    footer {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .top img {
+        margin-left: 78vw;
+    }
+
+    .privacy {
+        top: 75%;
+    }
+
+    .terms1 {
+        top: 85%;
+    }
+
+    .privacy,
+    .terms1 {
+        left: 50%;
+    }
+
+    .leftfooter {
+        display: flex;
+        margin: 5%;
+    }
+
+}
+
+@media screen and (max-width:315px) {
+
+    .privacy,
+    .terms1 {
+        left: 50%;
+    }
+
+    .privacy {
+        top: 70%;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width: 1023px)
+{
+    .privacy,
+    .terms1 {
+        left: 50%;
+    }
+    #container{
+        display: flex;
+        flex-direction:column;
+    }
+    .left,.right{
+        width: 100vw;
+    }
+
+    .privacy {
+        top: 70%;
+    }
+  
+}
+/* .options{
+    display: flex;
+    flex-direction: column
+    
+} */
+.options{
+    padding: 15px;
+}
